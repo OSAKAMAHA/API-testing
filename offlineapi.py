@@ -28,7 +28,7 @@ def getcountry(data:json,name:str):
 def openJsonFile(filename):
      with open(filename,encoding="utf8") as json_file:
         return json.load(json_file)
-def getInfo(countryData,info):
+def getInfo(countryData:json,info):
     out = "{"
     for s in info:
         try:

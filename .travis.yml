@@ -1,0 +1,7 @@
+language:python
+
+python:
+ - 3.8.2
+script:
+ - API-testing/test_int_online
+ - API-testing/test_offline
